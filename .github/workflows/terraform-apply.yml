@@ -2,11 +2,19 @@
 name: 'Terraform-plan'
 
 on:
+<<<<<<< HEAD
    workflow_dispatch:
 #  push:
 #    branches:
 #    - "main"
 #  pull_request:
+=======
+ workflow_dispatch:
+ # push:
+  #  branches:
+   # - "main"
+
+>>>>>>> cdb47d41e7f15db31eccb91c07392702ca5d59af
 
 permissions:
   contents: read
